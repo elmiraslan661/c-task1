@@ -29,3 +29,12 @@
 //    Console.WriteLine(p);
 //}
 //Ucbucaq();
+
+double CirclArea(double r)
+{
+    double p = 3;
+    return p * r * r;
+}
+double elmir = CirclArea(5);
+Console.WriteLine("Cevrenin sahesi" + elmir);
+
